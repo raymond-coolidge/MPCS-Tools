@@ -187,7 +187,6 @@ Func _AirflowReports()
 	EndIf
 EndFunc
 
-; update nonconformance report
 Func _NonconformanceReport()
 	$EndDate = _NowCalcDate()
 	$sEndDate = _DateFormat($EndDate, "dd-MMM-yyyy")
